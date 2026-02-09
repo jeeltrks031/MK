@@ -169,7 +169,7 @@ export default function FooterSection() {
                 </li>
                 <li>
                   <Link
-                    href="/#FAQS"
+                    href="/faqs"
                     className="text-sm text-[#241F20] transition-colors  lg:text-base"
                   >
                     FAQ's

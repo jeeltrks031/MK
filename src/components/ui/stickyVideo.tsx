@@ -72,9 +72,7 @@ export default function StickyVideo() {
 
       <iframe
         ref={iframeRef}
-        className={`w-full h-full transition-opacity duration-500 ${
-          loading ? "opacity-0" : "opacity-100"
-        }`}
+        className={`w-full h-full transition-opacity duration-500 ${loading ? "opacity-0" : "opacity-100"}`}
         src={`https://www.youtube.com/embed/k_GvGvt4Id0?enablejsapi=1&autoplay=1&mute=1&controls=0&playsinline=1&rel=0&modestbranding=1&origin=${window.location.origin}`}
         title="MilkeKhareedo"
         allow="autoplay; fullscreen"
@@ -113,6 +111,15 @@ export default function StickyVideo() {
           className="absolute bottom-3 right-3 h-9 w-9 bg-white rounded-full flex items-center justify-center shadow-lg opacity-0 group-hover:opacity-100 transition z-40"
         >
           <IoExpand size={18} />
+        </button>
+      )}
+
+      {!loading && (
+        <button
+          onClick={() => window.open('https://www.youtube.com/@milkekhareedo?sub_confirmation=1', '_blank')}
+          className="absolute top-3 left-3 bg-red-600 text-white px-3 py-1.5 rounded-full text-xs font-semibold shadow-lg opacity-0 group-hover:opacity-100 transition z-40 hover:bg-red-700"
+        >
+          Subscribe
         </button>
       )}
     </div>

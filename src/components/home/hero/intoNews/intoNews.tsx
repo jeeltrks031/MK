@@ -46,7 +46,7 @@ export default function IntoNews() {
   const mobileBlogs = featuredBlog ? [featuredBlog, ...blogs] : blogs;
 
   return (
-    <section className="py-16 px-4 md:px-16">
+    <section className="py-16 px-4 md:px-16" id="news">
       <div className="max-w-[1300px] mx-auto text-center">
         {/* Heading */}
         <h2 className="text-[24px] md:text-[30px] font-semibold text-[#000000] mb-2">

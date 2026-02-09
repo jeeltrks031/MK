@@ -15,7 +15,7 @@ const founders = [
     role: "Founder & CEO",
     desc: "description description description",
     items: ["twitter", "facebook", "linkedin", "instagram"],
-    avatar: "/images/f1.jpg",
+    avatar: "/images/founder.jpg",
   },
   {
     name: "Gundapu Anush",

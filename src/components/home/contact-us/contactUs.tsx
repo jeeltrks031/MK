@@ -25,7 +25,7 @@ const contactMethods = [
     type: "normal",
     icon: "/images/Frame3.png",
     title: "Where We Are",
-    desc: "Tk Residency , Friends Colony Rd, Friends Colony, Indira Nagar Colony, Miyapur, Hyderabad, Telangana 500049",
+    desc: "Aparna Greens Homes, 4th Floor, Flat No 403, Nanakramguda, Makthakousarali, Telangana 500032",
   },
 ];
 

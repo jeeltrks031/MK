@@ -22,7 +22,7 @@ export default function Heading() {
               <span className="text-[#FBAD1B]">Smarter.</span>
             </h2>
 
-            <p className="text-white text-[15px] md:text-[17px] font-medium max-w-xl mb-6 leading-snug md:truncate">
+            <p className="text-white text-[15px] md:text-[17px] font-medium max-w-2xl mb-6 leading-snug md:truncate">
               Get updates on group-buying deals and pricing insights that help you save more.
             </p>
 
